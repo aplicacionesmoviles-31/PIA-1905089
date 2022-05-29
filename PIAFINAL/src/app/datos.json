@@ -1,0 +1,39 @@
+ {
+    "publicaciones": [
+        {
+            "usuario": "@eldog",
+            "imagen": "../assets/imagenes/siu.jpg",
+            "caption": "en efecto mi estimado",
+            "comentario": "", 
+            "id": "eldog1"
+          },
+          {
+            "usuario": "@eligor",
+            "imagen": "../assets/imagenes/freddy.jpg",
+            "caption": "donde estan?",
+            "comentario": "", 
+            "id": "eligor1"
+          },
+          {
+            "usuario": "@angelelperro",
+            "imagen": "../assets/imagenes/pit.jpg",
+            "caption": "intrigao",
+            "comentario": "", 
+            "id": "angelelperro1"
+          }
+    ],
+    "usuario" : {
+      "nombre":"sergio el perrillo",
+      "alias": "@sergio el perrillo",
+      "fotoPerfil": "../assets/imagenes/sergio.jpg",
+      "seguidores": 12,
+      "seguidos": 777,
+      "bio": "mirando el horizonte", 
+      "publicaciones": [
+        "../assets/imagenes/siu.jpg",
+        "../assets/imagenes/freddy.jpg",
+        "../assets/imagenes/pit.jpg"
+      ]
+    }
+}
+

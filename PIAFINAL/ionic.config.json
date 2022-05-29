@@ -1,0 +1,13 @@
+{
+  "defaultProject": "pia",
+  "projects": {
+    "pia": {
+      "name": "pia",
+      "integrations": {
+        "cordova": {},
+        "capacitor": {}
+      },
+      "type": "angular"
+    }
+  }
+}

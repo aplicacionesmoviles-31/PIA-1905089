@@ -1,0 +1,34 @@
+<ion-grid>
+    <ion-row>
+        <ion-col size-md="8" offset-md="2">
+            <ion-card>
+                <div>
+                    <ion-card-header>
+                        {{publicacionDetalle.usuario}}
+                    </ion-card-header>
+                    <ion-card-content>
+                        <img [src]="publicacionDetalle.imagen"  alt="">
+                        <p>{{publicacionDetalle.caption}}</p>
+                       
+                    </ion-card-content>
+                    <div class="footer">
+                        <div class="options">
+                            <ion-button color="danger" fill="clear"><ion-icon name="heart-circle"></ion-icon></ion-button>
+                            <ion-button  color="primary" fill="clear"><ion-icon name="send-outline"></ion-icon></ion-button>
+                            <ion-button color="dark" fill="clear"><ion-icon name="chatbubble-outline"></ion-icon></ion-button>
+                            <ion-button color="dark" fill="clear"><ion-icon name="bookmarks-outline"></ion-icon></ion-button>
+                            
+                        </div>
+                        <div class="comentarios">
+                            <div>
+                                {{publicacionDetalle.comentario}}
+                            </div>
+                            
+                        </div>
+                    </div>
+            
+                </div>
+            </ion-card>
+        </ion-col>
+    </ion-row>
+</ion-grid>
